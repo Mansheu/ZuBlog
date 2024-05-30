@@ -318,7 +318,7 @@ app.post(
     } else {
       let avatarImage; // Initialize avatar
       if (!req.file) {
-        avatarImage = "profile-photo-default.svg"; // Use a default avatar image if no file was uploaded
+        avatarImage = "ZulikhaP.jpg"; // Use a default avatar image if no file was uploaded
       } else {
         // If an image was uploaded, update the avatar path
         avatarImage = req.file.filename; // Use req.file.filename to get the uploaded file's name
